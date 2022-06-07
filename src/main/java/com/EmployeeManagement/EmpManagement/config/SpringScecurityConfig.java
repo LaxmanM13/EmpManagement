@@ -28,9 +28,5 @@ protected void configure(AuthenticationManagerBuilder auth) throws Exception {
 	}
 
 
- @Bean
- public BCryptPasswordEncoder passwordEncoder() {
-     return new BCryptPasswordEncoder();
- }
 
 }
